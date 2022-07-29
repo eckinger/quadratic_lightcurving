@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 from pylab import *
 from matplotlib import rc
 
+# mostly taken from the batman quickstart
+# https://lkreidberg.github.io/batman/docs/html/index.html
+# https://ui.adsabs.harvard.edu/abs/2015PASP..127.1161K/abstract
+
 params = batman.TransitParams()
 params.t0 = 0. 				#time of inferior conjunction
 params.per = 1.				#orbital period
